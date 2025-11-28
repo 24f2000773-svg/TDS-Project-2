@@ -111,7 +111,7 @@ LLM-Analysis-TDS-Project-2/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/saivijayragav/LLM-Analysis-TDS-Project-2.git
+git clone https://github.com/24f2000773-svg/TDS-Project-2.git
 cd LLM-Analysis-TDS-Project-2
 ```
 
