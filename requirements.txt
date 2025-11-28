@@ -1,0 +1,25 @@
+# Install the project in editable mode so `from tools import ...` works
+-e .
+
+# Project dependencies (from pyproject.toml)
+playwright>=1.56.0
+beautifulsoup4>=4.14.2
+langgraph>=1.0.3
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-google-genai>=1.0.0
+google-genai>=0.17.0
+jsonpatch>=1.33
+python-dotenv>=1.2.1
+pandas>=2.3.3
+fastapi>=0.121.3
+uvicorn>=0.38.0
+requests>=2.32.5
+
+# Notes:
+# - Playwright requires an extra install step to download browser binaries.
+#   After pip installs the packages, run:
+#     python -m playwright install --with-deps
+# - If Hugging Face Spaces uses Python 3.14 and you see Pydantic/compat warnings,
+#   consider selecting a Python <=3.13 runtime for the Space or pinning affected
+#   libraries until compatibility is resolved.
